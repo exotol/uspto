@@ -6,7 +6,7 @@ authors = ["exotol <artem.bardakov@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-dvc = "^2.11.0"
+dvc = {extras = ["gdrive"], version = "^2.11.0"}
 jupyterlab = "^3.4.3"
 pandas = "^1.4.2"
 numpy = "^1.22.4"
